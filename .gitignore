@@ -1,7 +1,26 @@
+# Ignore macOS system files
 .DS_Store
-node_modules
-.tmp
+
+# Ignore Node.js files
+node_modules/
+.tmp/
 npm-debug.log
 
-.venv
-.idea
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and cache
+*.log
